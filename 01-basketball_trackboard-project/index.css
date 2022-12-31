@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-text {
+    font-weight: bolder;
+    color: white;
+}
+.count-screen {
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: red;
+    font-size: 45px;
+}
+
+.count-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7px;
+}
+
+.add-btn {
+    border: 2px solid white;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.reset-buttons {
+    display: flex
+    justify-content: space-between;
+}
+
+.reset-btn {
+    background-color: blueviolet;
+    margin-top: 15px;
+    margin-right: 5px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    color: greenyellow;
+    width: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.reset-home {
+    border: 2px solid lawngreen;
+    color: lawngreen;
+}
+
+.reset-all {
+    border: 2px solid red;
+    color: red;
+}

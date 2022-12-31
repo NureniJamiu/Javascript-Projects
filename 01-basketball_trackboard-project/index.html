@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="container-text">TEAM 1</h3>
+                <!--PLEASE NOTE that Team 1 are represented in this project with the 
+                'home' word and the Team 2 are represented with the 'guest' word.
+                -->
+                <div class="count-screen" id="homeScreen">0</div>
+                <div class="count-btn">
+                    <button class="add-btn" onclick="addHome1()">+1</button>
+                    <button class="add-btn" onclick="addHome2()">+2</button>
+                    <button class="add-btn" onclick="addHome3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 class="container-text">TEAM 2</h3>
+                <div class="count-screen" id="guestScreen">0</div>
+                <div class="count-btn">
+                    <button class="add-btn" onclick="addGuest1()">+1</button>
+                    <button class="add-btn" onclick="addGuest2()">+2</button>
+                    <button class="add-btn" onclick="addGuest3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="reset-buttons">
+            <button class="reset-btn reset-home" onclick="resetHome()">RESET TEAM 1</button>
+            <button class="reset-btn reset-all" onclick="reset()">RESET ALL</button>
+            <button class="reset-btn" onclick="resetGuest()">RESET TEAM 2</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
