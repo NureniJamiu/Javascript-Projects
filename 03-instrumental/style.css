@@ -34,7 +34,7 @@ html {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  transition: 0.07s;
+  transition: all 0.07s;
 }
 
 .playing {
