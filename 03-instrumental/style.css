@@ -1,6 +1,7 @@
 body {
   background: url("./background.jpg") top center;
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -13,14 +14,20 @@ html {
 
 .keys {
   display: flex;
+  flex-wrap: wrap;
   min-height: 70vh;
   align-items: center;
   justify-content: center;
   gap: 2%;
 }
 
-/* .container {
-} */
+.container p {
+  background-color: bisque;
+  padding: 1rem 0;
+  margin: 0 5rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
 
 .key {
   display: flex;
