@@ -1,4 +1,4 @@
-**About the project**
+**About Project**
 
 This is a simple project that explores the basics of the following:
 
