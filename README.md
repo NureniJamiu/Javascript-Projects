@@ -1,2 +1,4 @@
-# Javascript-Projects
-This is a list of the projects I created using testing my knowledge of Javascript
+# About Project
+
+This file contains all of the Projects I created in my process of Mastering Javascript...
+The live links to these projects shall be updated below after completion.  
