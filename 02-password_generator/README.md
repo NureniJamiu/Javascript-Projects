@@ -10,4 +10,4 @@ This project requires the knowledge of how to work with the following:
 - Nesting
 - HTML DOM
 
-Creating this project is indeed a fun-filled experience. I got my chance to put what I've learned into practice. Thanks to scrimba.com for providing such a great resource to learn from.
+Creating this project is indeed a fun-filled experience. I got my chance to put what I've learned into practice. Thanks to [scrimba](https://www.scrimba.com) for providing such great resources to learn from.
